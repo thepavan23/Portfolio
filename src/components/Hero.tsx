@@ -1,4 +1,4 @@
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Mail, FolderOpen } from "lucide-react";
 import Scene3D from "./Scene3D";
@@ -47,11 +47,9 @@ const Hero = () => {
       {/* Background effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(160_84%_50%_/_0.08),transparent_50%),radial-gradient(ellipse_at_bottom_left,hsl(250_80%_65%_/_0.06),transparent_50%)]" />
 
-      <Suspense fallback={null}>
-        <div className="absolute right-0 top-0 w-1/2 h-full hidden lg:block">
-          <Scene3D />
-        </div>
-      </Suspense>
+      <div className="absolute right-0 top-0 w-full h-full">
+        <Scene3D />
+      </div>
 
       <div className="section-container relative z-10 pt-20">
         <div className="max-w-3xl">
