@@ -9,8 +9,8 @@ const projects = [
       "A full-stack file storage and sharing application with user authentication, file upload/download using AWS S3, and a responsive dashboard for managing files securely.",
     tech: ["React", "Node.js", "MongoDB", "AWS S3"],
     category: "Full Stack",
-    github: "https://github.com/pavankumar",
-    demo: "#",
+    github: "https://github.com/thepavan23",
+    demo: "https://file-sharing-app-frontend-zeta.vercel.app/",
     image: "",
   },
   {
@@ -19,20 +19,20 @@ const projects = [
       "A machine learning web app that predicts the likelihood of diabetes using patient health data. Built with Scikit-learn for ML models and Streamlit for the interactive UI.",
     tech: ["Python", "Scikit-learn", "Streamlit"],
     category: "ML",
-    github: "https://github.com/pavankumar",
-    demo: "#",
+    github: "https://github.com/thepavan23/DeepFakeImageDetection",
+    demo: "https://diabetes-prediction-website.streamlit.app/",
     image: "",
   },
-  {
-    title: "Greenbin Waste Management System",
-    description:
-      "An end-to-end waste management platform enabling users to report, track, and manage waste collection. Features role-based access and real-time status updates.",
-    tech: ["React", "Node.js", "MySQL"],
-    category: "Full Stack",
-    github: "https://github.com/pavankumar",
-    demo: "#",
-    image: "",
-  },
+  // {
+  //   title: "Greenbin Waste Management System",
+  //   description:
+  //     "An end-to-end waste management platform enabling users to report, track, and manage waste collection. Features role-based access and real-time status updates.",
+  //   tech: ["React", "Node.js", "MySQL"],
+  //   category: "Full Stack",
+  //   github: "https://github.com/thepavan23",
+  //   demo: "#",
+  //   image: "",
+  // },
 ];
 
 const filters = ["All", "Full Stack", "ML"];

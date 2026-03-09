@@ -8,31 +8,31 @@ const profiles = [
   {
     name: "GitHub",
     icon: FaGithub,
-    url: "https://github.com/pavankumar",
+    url: "https://github.com/thepavan23",
     desc: "Open source contributions & projects",
     color: "hover:border-foreground/30",
   },
   {
     name: "LeetCode",
     icon: SiLeetcode,
-    url: "https://leetcode.com/pavankumar",
+    url: "https://leetcode.com/u/the_pavan_23/",
     desc: "Problem solving & algorithms",
     color: "hover:border-amber-500/30",
   },
   {
     name: "HackerRank",
     icon: SiHackerrank,
-    url: "https://hackerrank.com/pavankumar",
+    url: "https://www.hackerrank.com/profile/pavangannabatth1",
     desc: "Certifications & challenges",
     color: "hover:border-emerald-500/30",
   },
-  {
-    name: "CodeChef",
-    icon: SiCodechef,
-    url: "https://codechef.com/users/pavankumar",
-    desc: "Competitive programming contests",
-    color: "hover:border-amber-700/30",
-  },
+  // {
+  //   name: "CodeChef",
+  //   icon: SiCodechef,
+  //   url: "https://codechef.com/users/pavankumar",
+  //   desc: "Competitive programming contests",
+  //   color: "hover:border-amber-700/30",
+  // },
 ];
 
 const CodingProfiles = () => {
@@ -86,13 +86,13 @@ const CodingProfiles = () => {
           <h3 className="text-xl font-semibold mb-6 text-foreground">GitHub Stats</h3>
           <div className="flex flex-wrap gap-4 justify-center">
             <img
-              src="https://github-readme-stats.vercel.app/api?username=pavankumar&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117"
+              src="https://github-readme-stats.vercel.app/api?username=thepavan23&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117"
               alt="GitHub Stats"
               className="rounded-lg max-w-full"
               loading="lazy"
             />
             <img
-              src="https://github-readme-streak-stats.herokuapp.com/?user=pavankumar&theme=radical&hide_border=true&background=0d1117"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=thepavan23&theme=radical&hide_border=true&background=0d1117"
               alt="GitHub Streak"
               className="rounded-lg max-w-full"
               loading="lazy"

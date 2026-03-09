@@ -9,7 +9,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailto = `mailto:pavankumar@example.com?subject=Contact from ${form.name}&body=${encodeURIComponent(form.message)}%0A%0AFrom: ${form.email}`;
+    const mailto = `mailto:pavangannabatthula23@gmail.com?subject=Contact from ${form.name}&body=${encodeURIComponent(form.message)}%0A%0AFrom: ${form.email}`;
     window.open(mailto);
   };
 
@@ -43,7 +43,7 @@ const Contact = () => {
 
             <div className="space-y-4">
               <a
-                href="mailto:pavankumar@example.com"
+                href="mailto:pavangannabatthula23@gmail.com.com"
                 className="flex items-center gap-4 glass-card rounded-xl p-4 hover:border-primary/20 transition-all group"
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -51,12 +51,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="text-foreground font-medium">pavankumar@example.com</p>
+                  <p className="text-foreground font-medium">pavangannabatthula23@gmail.com</p>
                 </div>
               </a>
 
               <a
-                href="https://linkedin.com/in/pavankumar"
+                href="https://linkedin.com/in/pavan-kumar-gannabathula"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 glass-card rounded-xl p-4 hover:border-primary/20 transition-all group"
@@ -66,12 +66,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">LinkedIn</p>
-                  <p className="text-foreground font-medium">linkedin.com/in/pavankumar</p>
+                  <p className="text-foreground font-medium">linkedin.com/in/pavan-kumar-gannabathula</p>
                 </div>
               </a>
 
               <a
-                href="https://github.com/pavankumar"
+                href="https://github.com/thepavan23"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 glass-card rounded-xl p-4 hover:border-primary/20 transition-all group"
@@ -81,7 +81,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">GitHub</p>
-                  <p className="text-foreground font-medium">github.com/pavankumar</p>
+                  <p className="text-foreground font-medium">github.com/thepavan23</p>
                 </div>
               </a>
             </div>

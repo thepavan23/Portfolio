@@ -31,8 +31,12 @@ const Navbar = () => {
       }`}
     >
       <div className="section-container flex items-center justify-between h-16 md:h-20">
-        <a href="#home" className="text-xl font-bold gradient-text-primary font-display">
+        {/* <a href="#home" className="text-xl font-bold gradient-text-primary font-display">
           {"<PK />"}
+        </a> */}
+
+        <a href="#home" className="flex items-center">
+            <img src="/favicon.ico" alt="PK Logo" className="h-12 w-auto" />
         </a>
 
         {/* Desktop */}
@@ -47,7 +51,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://github.com/pavankumar"
+            href="https://github.com/thepavan23"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-2 px-4 py-2 text-sm rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
