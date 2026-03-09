@@ -8,13 +8,13 @@ const Footer = () => {
           © {new Date().getFullYear()} Pavan Kumar Gannabathula. Built with React & Tailwind.
         </p>
         <div className="flex items-center gap-4">
-          <a href="https://github.com/pavankumar" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://github.com/thepavan23" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Github size={18} />
           </a>
-          <a href="https://linkedin.com/in/pavankumar" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://linkedin.com/in/pavan-kumar-gannabathula" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin size={18} />
           </a>
-          <a href="mailto:pavankumar@example.com" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="mailto:pavangannabatthula23@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
             <Mail size={18} />
           </a>
         </div>
